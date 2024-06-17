@@ -1,11 +1,11 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  nombre: MyString
-  descripcion: MyText
-  precio: 1
+MacBook Pro 2019:
+  nombre: MacBook Pro 2019
+  descripcion: 16 GB RAM, 512 GB SSD, en excelente estado
+  precio: 1200
 
-two:
-  nombre: MyString
-  descripcion: MyText
-  precio: 1
+Samsung Galaxy S20:
+  nombre: Samsung Galaxy S20
+  descripcion: Como nuevo, sin rasguños
+  precio: 350
