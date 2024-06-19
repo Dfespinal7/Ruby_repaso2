@@ -1,5 +1,8 @@
 <H1>NOMBRE:</H1>
 <%=@product.nombre%>
 <H1>DESCRIPCION:</H1>
-<%=@product.descripcion%>
+<%=@product.descripcion%><br>
+<%=link_to 'Editar este producto',edit_product_path(@product)%>
+<%= link_to 'Eliminar este producto', product_path(@product), method: :delete, data: { confirm: '¿Estás seguro?' } %>
+
 
